@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./tabela.html">
+
+</head>
+
+<body>
+    <a href="./tabela.html">Voltar a tela Principal</a>
+
+    <form action="" method="post" enctype="multipart/from-date"> <br>
+        <fieldset>
+            <legend>Formulario da sua vida</legend>
+            <label for="info">Informatica</label>
+            <input type="checkbox" name="curso[]" id="info" value="info"><br>
+            <label for="meca">Mecatronica</label>
+            <input type="checkbox" name="curso[]" id="meca" value="meca"><br>
+
+            <input type="color" name="color"><br>
+            <input type="date" name="date"><br>
+            <input type="datetime-local" name="datahora"><br>
+            <input type="email" name="email"><br>
+            <input type="file" name="airquivo"><br>
+            <input type="hidden" name="escolhido"><br>
+            <input type="month" name="mes"><br>
+            <input type="number" name="numero"><br>
+            <input type="password" name="senha"><br>
+
+            <label for="um">1 ano: </label>
+            <input type="radio" name="ano" id="um" value="1"><br>
+            <label for="dois">2 ano: </label>
+            <input type="radio" name="ano" id="dois" value="2"><br>
+            <label for="tres">3ano: </label>
+            <input type="radio" name="ano" id="tres" value="3"><br>
+
+            <input type="range" name="lista"><br>
+            <input type="search" name="busca"><br>
+            <input type="tel" name="telefone"><br>
+            <input type="text" name="texto" placeholder="Joao"><br>
+            <input type="time" name="hora"><br>
+            <input type="url" name="site"><br>
+            <input type="week" name="semana"><br>
+            <label for="sem">Semana</label>
+            <select name="semestre" id="sem" required>
+                <option></option>
+                <option value="1">1 semestre</option>
+                <option value="2">2 semestre</option>
+                <option value="3">3 semestre</option>
+                <option value="4">4 semestre</option>
+            </select>
+            <button type="submit">Enviar</button>
+    </form>
+    </fieldset>
+</body>
+
+</html>
